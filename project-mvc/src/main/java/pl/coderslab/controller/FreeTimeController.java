@@ -17,7 +17,7 @@ public class FreeTimeController {
     public String checkTime(){
         String text = "";
         LocalDateTime dateTime = LocalDateTime.now();
-        LocalDateTime day = LocalDateTime.of(2022, Month.MARCH, 21, 19, 10);
+        LocalDateTime day = LocalDateTime.of(2022, Month.MARCH, 18, 10, 10);
 
 //        dataTime =
         DayOfWeek dayOfWeek = dateTime.getDayOfWeek();
